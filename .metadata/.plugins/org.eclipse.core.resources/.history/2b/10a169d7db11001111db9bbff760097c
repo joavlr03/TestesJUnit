@@ -1,0 +1,16 @@
+package FontesAppCalculadora;
+
+public class mainTeste {
+
+	int n1 = 4;
+	int n2 = 2;
+	
+
+
+	private static int CalculadoraAritmetica() {
+		// TODO Auto-generated method stub
+		CalculadoraAritmetica calc = new CalculadoraAritmetica();
+		return  calc.soma(3, 3);
+	}
+
+}
