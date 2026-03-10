@@ -2,30 +2,30 @@ package FontesAppCalculadora;
 
 public class CalculadoraAritmetica {
 
-	private int resultado = 0 ;
+	private double resultado = 0 ;
 	
-	public int soma (int n1, int n2){
+	public double soma (int n1, int n2){
 		
 		resultado = n1+n2;
 		return resultado;
 				
 	}
 	
-	public int subtrair (int n1, int n2){
+	public double subtrair (int n1, int n2){
 		
 		resultado = n1-n2;
 		return resultado;
 				
 	}
 	
-	public int divide (int n1, int n2){
+	public double divide (double n1, double n2){
 		
 		resultado = (n1/n2);
 		return resultado;
 				
 	}
 	
-	public int multiplica (int n1, int n2){
+	public double multiplica (int n1, int n2){
 		
 		resultado = n1*n2;
 		return resultado;
